@@ -24,7 +24,7 @@ class GoodsTableSeeder extends Seeder
         for (; $i <= 240; $i++) {
             DB::table('goods')->insert([
                 'name' => '睡袋',
-                'model_name' => '睡袋',
+                'model_name' => 'shuidai',
                 'unit' => '个',
                 'num' => 5,
                 'cell_id' => $i
