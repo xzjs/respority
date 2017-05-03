@@ -57,5 +57,23 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
+        for (; $i <= 540; $i++) {
+            DB::table('goods')->insert([
+                'name' => '帐篷',
+                'model_name' => 'zhangpeng',
+                'unit' => '顶',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for (; $i <= 600; $i++) {
+            DB::table('goods')->insert([
+                'name' => '救生衣',
+                'model_name' => 'jiushengyi',
+                'unit' => '件',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
     }
 }
