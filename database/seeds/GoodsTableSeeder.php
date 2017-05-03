@@ -11,13 +11,23 @@ class GoodsTableSeeder extends Seeder
      */
     public function run()
     {
-        for($i=1;$i<=120;$i++){
+        $i = 1;
+        for (; $i <= 120; $i++) {
             DB::table('goods')->insert([
                 'name' => '棉衣裤',
                 'model_name' => 'mianyiku',
-                'unit'=>'床',
-                'num'=>5,
-                'cell_id'=>$i
+                'unit' => '床',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for (; $i <= 240; $i++) {
+            DB::table('goods')->insert([
+                'name' => '睡袋',
+                'model_name' => '睡袋',
+                'unit' => '个',
+                'num' => 5,
+                'cell_id' => $i
             ]);
         }
     }
