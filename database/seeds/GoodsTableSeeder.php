@@ -30,5 +30,14 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
+        for (; $i <= 360; $i++) {
+            DB::table('goods')->insert([
+                'name' => '折叠床',
+                'model_name' => 'zhediechuang',
+                'unit' => '个',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
     }
 }

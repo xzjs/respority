@@ -11,7 +11,7 @@ class CellsTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 1; $i <= 12; $i++) {
+        for ($i = 1; $i <= 18; $i++) {
             for ($j = 1; $j <= 20; $j++) {
                 DB::table('cells')->insert([
                     'no' => $j,
