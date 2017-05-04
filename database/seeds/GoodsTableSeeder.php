@@ -93,7 +93,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=720;$i++){
+        for(;$i<=726;$i++){
             DB::table('goods')->insert([
                 'name' => '护目镜',
                 'model_name' => 'humujing',
@@ -102,7 +102,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=732;$i++){
+        for(;$i<=744;$i++){
             DB::table('goods')->insert([
                 'name' => '保温壶',
                 'model_name' => 'baowenhu',
@@ -111,7 +111,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=744;$i++){
+        for(;$i<=762;$i++){
             DB::table('goods')->insert([
                 'name' => '防灾工服',
                 'model_name' => 'fangzaigongfu',
@@ -120,7 +120,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=756;$i++){
+        for(;$i<=780;$i++){
             DB::table('goods')->insert([
                 'name' => '手电筒',
                 'model_name' => 'shoudiantong',
@@ -129,7 +129,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=768;$i++){
+        for(;$i<=798;$i++){
             DB::table('goods')->insert([
                 'name' => 'jinho',
                 'model_name' => 'jinho',
@@ -138,7 +138,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=780;$i++){
+        for(;$i<=816;$i++){
             DB::table('goods')->insert([
                 'name' => '携行具',
                 'model_name' => 'xiexingju',
@@ -147,7 +147,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=792;$i++){
+        for(;$i<=834;$i++){
             DB::table('goods')->insert([
                 'name' => '雨衣裤',
                 'model_name' => 'yuyiku',
@@ -156,7 +156,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=804;$i++){
+        for(;$i<=852;$i++){
             DB::table('goods')->insert([
                 'name' => '雨鞋',
                 'model_name' => 'yuxie',
@@ -165,7 +165,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=818;$i++){
+        for(;$i<=873;$i++){
             DB::table('goods')->insert([
                 'name' => '急救哨',
                 'model_name' => 'jijiushao',
@@ -174,7 +174,7 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=1038;$i++){
+        for(;$i<=918;$i++){
             DB::table('goods')->insert([
                 'name' => '志愿者服',
                 'model_name' => 'zhiyuanzhefu',

@@ -20,6 +20,14 @@ class FloorsTableSeeder extends Seeder
                 ]);
             }
         }
+        for(;$i<=15;$i++){
+            for($j=1;$j<=5;$j++){
+                DB::table('floors')->insert([
+                    'no' => $j,
+                    'shelf_id' => $i
+                ]);
+            }
+        }
         for(;$i<=18;$i++){
             for($j=1;$j<=5;$j++){
                 DB::table('floors')->insert([

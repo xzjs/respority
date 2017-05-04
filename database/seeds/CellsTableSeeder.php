@@ -28,8 +28,16 @@ class CellsTableSeeder extends Seeder
                 ]);
             }
         }
-        for(;$i<=66;$i++){
+        for(;$i<=51;$i++){
             for($j=1;$j<=11;$j++){
+                DB::table('cells')->insert([
+                    'no' => $j,
+                    'floor_id' => $i
+                ]);
+            }
+        }
+        for(;$i<=66;$i++){
+            for($j=1;$j<=3;$j++){
                 DB::table('cells')->insert([
                     'no' => $j,
                     'floor_id' => $i
