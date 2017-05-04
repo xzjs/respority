@@ -11,10 +11,17 @@ class ShelvesTableSeeder extends Seeder
      */
     public function run()
     {
-        for($i=1;$i<=17;$i++){
+        $i=1;
+        for(;$i<=12;$i++){
             DB::table('shelves')->insert([
                 'no' => $i,
                 'type' => 0
+            ]);
+        }
+        for(;$i<=18;$i++){
+            DB::table('shelves')->insert([
+                'no' => $i,
+                'type' => 1
             ]);
         }
     }
