@@ -24,5 +24,11 @@ class ShelvesTableSeeder extends Seeder
                 'type' => 1
             ]);
         }
+        for(;$i<=19;$i++){
+            DB::table('shelves')->insert([
+                'no' => $i,
+                'type' => 0
+            ]);
+        }
     }
 }
