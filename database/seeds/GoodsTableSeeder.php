@@ -174,5 +174,14 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
+        for(;$i<=1038;$i++){
+            DB::table('goods')->insert([
+                'name' => '志愿者服',
+                'model_name' => 'zhiyuanzhefu',
+                'unit' => '件',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
     }
 }
