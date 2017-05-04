@@ -11,8 +11,17 @@ class FloorsTableSeeder extends Seeder
      */
     public function run()
     {
-        for($i=1;$i<=12;$i++){
+        $i=1;
+        for(;$i<=12;$i++){
             for($j=1;$j<=3;$j++){
+                DB::table('floors')->insert([
+                    'no' => $j,
+                    'shelf_id' => $i
+                ]);
+            }
+        }
+        for(;$i<=14;$i++){
+            for($j=1;$j<=5;$j++){
                 DB::table('floors')->insert([
                     'no' => $j,
                     'shelf_id' => $i

@@ -16,7 +16,7 @@ class GoodsTableSeeder extends Seeder
             DB::table('goods')->insert([
                 'name' => '棉衣裤',
                 'model_name' => 'mianyiku',
-                'unit' => '床',
+                'unit' => '条',
                 'num' => 5,
                 'cell_id' => $i
             ]);
@@ -75,11 +75,101 @@ class GoodsTableSeeder extends Seeder
                 'cell_id' => $i
             ]);
         }
-        for(;$i<=708;$i++){
+        for(;$i<=654;$i++){
             DB::table('goods')->insert([
                 'name' => '防寒服',
                 'model_name' => 'fanghanfu',
                 'unit' => '件',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=708;$i++){
+            DB::table('goods')->insert([
+                'name' => '毛巾被',
+                'model_name' => 'maojinbei',
+                'unit' => '条',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=720;$i++){
+            DB::table('goods')->insert([
+                'name' => '护目镜',
+                'model_name' => 'humujing',
+                'unit' => '个',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=732;$i++){
+            DB::table('goods')->insert([
+                'name' => '保温壶',
+                'model_name' => 'baowenhu',
+                'unit' => '个',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=744;$i++){
+            DB::table('goods')->insert([
+                'name' => '防灾工服',
+                'model_name' => 'fangzaigongfu',
+                'unit' => '件',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=756;$i++){
+            DB::table('goods')->insert([
+                'name' => '手电筒',
+                'model_name' => 'shoudiantong',
+                'unit' => '个',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=768;$i++){
+            DB::table('goods')->insert([
+                'name' => 'jinho',
+                'model_name' => 'jinho',
+                'unit' => '个',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=780;$i++){
+            DB::table('goods')->insert([
+                'name' => '携行具',
+                'model_name' => 'xiexingju',
+                'unit' => '件',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=792;$i++){
+            DB::table('goods')->insert([
+                'name' => '雨衣裤',
+                'model_name' => 'yuyiku',
+                'unit' => '键',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=804;$i++){
+            DB::table('goods')->insert([
+                'name' => '雨鞋',
+                'model_name' => 'yuxie',
+                'unit' => '双',
+                'num' => 5,
+                'cell_id' => $i
+            ]);
+        }
+        for(;$i<=818;$i++){
+            DB::table('goods')->insert([
+                'name' => '急救哨',
+                'model_name' => 'jijiushao',
+                'unit' => '个',
                 'num' => 5,
                 'cell_id' => $i
             ]);
