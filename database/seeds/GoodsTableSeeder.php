@@ -151,7 +151,7 @@ class GoodsTableSeeder extends Seeder
             DB::table('goods')->insert([
                 'name' => '雨衣裤',
                 'model_name' => 'yuyiku',
-                'unit' => '键',
+                'unit' => '件',
                 'num' => 5,
                 'cell_id' => $i
             ]);
