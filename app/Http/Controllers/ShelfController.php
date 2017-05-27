@@ -14,7 +14,7 @@ class ShelfController extends Controller
      */
     public function index()
     {
-        $shelfs = Shelf::with('floors.cells.good')->get();
+        $shelfs = Shelf::with('floors.cells.goods')->get();
         return response()->json($shelfs);
     }
 
