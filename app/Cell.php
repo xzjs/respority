@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cell extends Model
 {
-    public function good()
+    public function goods()
     {
-        return $this->hasOne('App\Good');
+        return $this->hasMany('App\Good');
     }
 }
